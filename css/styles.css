@@ -40,8 +40,25 @@ header{
     font-size: 3rem;
     color: #A51F10;
 }
-nav ul{list-style-type: none;
+nav ul{
+    list-style-type: none;
+    border: 1px solid brown;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 nav a{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: black;
+    padding: 2px 15px;
+}
+nav a:hover{
+    background: black;
+    color: #89A611;
+    font-weight: none;
+}
+.posted{
+    float: left;
 }
