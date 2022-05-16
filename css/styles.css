@@ -58,7 +58,23 @@ nav a:hover{
     background: black;
     color: #89A611;
     font-weight: none;
+    transition: 0.1s;
 }
-.posted{
+article img{
     float: left;
+    border-radius: 15px;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+article{
+    padding: 20px
+}
+hr{
+    color: #A51F10;
+}
+footer ul{
+    list-style-type: none;
 }
